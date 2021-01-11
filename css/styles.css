@@ -193,11 +193,11 @@ body {
 
 /*page portfolio*/
 
-.button .active{
+.button .illuminated{
 background-color:var(--button-background-color);
 }
 
-.filter .active{
+.filter .illuminated{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -206,11 +206,10 @@ background-color:var(--button-background-color);
 
     background-color: var(--button-background-color);
     color: var(--main-text-color);
-
 }
 
-.filter .active:hover, 
-.filter .active:focus {
+.filter .illuminated:hover, 
+.filter .illuminated:focus {
     background-color: var(--button-focus-color);
     color: var(--text-title-button-color);
 }
