@@ -2,7 +2,7 @@
     --main-text-color: #212121;
     --paragraph-color: #757575;
     --footer-text-color: rgba(255, 255, 255, 0.6);
-    --button-focus-color: #2196F3;
+    --button-hover-color: #2196F3;
     --button-background-color: #F5F4FA;
     --text-title-button-color: #FFFFFF;
     --background-footer: #2F303A;
@@ -29,7 +29,7 @@ body {
 }
 
 .logo-web {
-    color: var(--button-focus-color);
+    color: var(--button-hover-color);
 }
 
 .list {
@@ -47,12 +47,12 @@ body {
 }
 
 .site .link.current {
-    color: var(--button-focus-color);
+    color: var(--button-hover-color);
 }
 
 .site .link:hover, 
 .site .link:focus {
-    color: var(--button-focus-color);
+    color: var(--button-hover-color);
 }
 
 /*contact*/
@@ -68,7 +68,7 @@ body {
 
 .auth .link:hover,
 .auth .link:focus {
-    color: var(--button-focus-color);
+    color: var(--button-hover-color);
 }
 
 /*main*/
@@ -94,7 +94,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
 
-    background-color: var(--button-focus-color);
+    background-color: var(--button-hover-color);
     color: var(--text-title-button-color);
     }
 
@@ -210,7 +210,7 @@ background-color:var(--button-background-color);
 
 .filter .illuminated:hover, 
 .filter .illuminated:focus {
-    background-color: var(--button-focus-color);
+    background-color: var(--button-hover-color);
     color: var(--text-title-button-color);
 }
 
