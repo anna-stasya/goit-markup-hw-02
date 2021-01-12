@@ -12,6 +12,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: var(--text-title-button-color);
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 
 /* page home*/
@@ -21,7 +22,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   text-decoration: none;
 
   color: black;
@@ -104,7 +104,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--main-text-color);
 }
@@ -115,7 +114,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--main-text-color);
@@ -125,7 +123,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--paragraph-color);
 }
@@ -140,7 +137,6 @@ body {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--main-text-color);
 }
@@ -150,7 +146,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--paragraph-color);
 }
@@ -166,7 +161,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--text-title-button-color);
 }
@@ -181,7 +175,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--footer-text-color);
 }
@@ -197,7 +190,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 
   background-color: var(--button-background-color);
   color: var(--main-text-color);
@@ -222,6 +214,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
