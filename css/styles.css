@@ -6,10 +6,12 @@
   --button-background-color: #f5f4fa;
   --text-title-button-color: #ffffff;
   --background-footer: #2f303a;
+  --color-black: #000000;
 }
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   background-color: var(--text-title-button-color);
   color: var(--main-text-color);
   letter-spacing: 0.03em;
@@ -24,7 +26,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 
-  color: black;
+  color: var(--color-black);
 }
 
 .logo-web {
@@ -38,7 +40,6 @@ body {
 .site .link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -57,7 +58,6 @@ body {
 /*contact*/
 .auth .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -112,7 +112,6 @@ body {
 
 .feature-list .title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
@@ -121,7 +120,6 @@ body {
 
 .feature-list .text {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 
   color: var(--paragraph-color);
@@ -143,7 +141,6 @@ body {
 
 .team .position {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 
@@ -159,7 +156,6 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 
   color: var(--text-title-button-color);
@@ -173,7 +169,6 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 
   color: var(--footer-text-color);
