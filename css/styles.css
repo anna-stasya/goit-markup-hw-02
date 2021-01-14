@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   background-color: var(--text-title-button-color);
@@ -18,10 +18,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* page home*/
-/*header*/
+/* ======================== PAGE HOME ========================*/
+
+/* ======================== HEADER ========================*/
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -58,7 +59,6 @@ body {
   color: var(--button-hover-color);
 }
 
-/*contact*/
 .auth .link {
   color: var(--paragraph-color);
 }
@@ -68,8 +68,7 @@ body {
   color: var(--button-hover-color);
 }
 
-/*main*/
-/*hero*/
+/* ========================HERO ========================*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -82,7 +81,7 @@ body {
   background-color: var(--background-footer);
 }
 
-/*button*/
+/* ========================BUTTON ========================*/
 
 .button {
   font-family: inherit;
@@ -96,7 +95,7 @@ body {
   color: var(--text-title-button-color);
 }
 
-/*section*/
+/* ========================SECTION ========================*/
 
 .section-title {
   font-weight: 700;
@@ -107,7 +106,7 @@ body {
   color: var(--main-text-color);
 }
 
-/*Преимущества*/
+/* ========================FEATURE ========================*/
 
 .feature-list .title {
   font-weight: 700;
@@ -123,7 +122,7 @@ body {
   color: var(--paragraph-color);
 }
 
-/*команда*/
+/* ========================TEAM ========================*/
 .section .group {
   background-color: var(--button-background-color);
 }
@@ -144,7 +143,7 @@ body {
   color: var(--paragraph-color);
 }
 
-/*footer*/
+/* ========================FOOTER ========================*/
 .background {
   background-color: var(--background-footer);
 }
@@ -168,8 +167,8 @@ body {
   color: var(--footer-text-color);
 }
 
-/*page portfolio*/
-
+/* ========================PAGE PORTFILIO ========================*/
+/* ========================FILTER ========================*/
 .button .illuminated {
   background-color: var(--button-background-color);
 }
@@ -191,10 +190,7 @@ body {
   color: var(--text-title-button-color);
 }
 
-/*страницы портфолио*/
-.invisible {
-  display: none;
-}
+/* ========================OBJECTS ========================*/
 
 .objects .title {
   font-weight: 700;
