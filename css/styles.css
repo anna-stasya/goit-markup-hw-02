@@ -39,14 +39,13 @@ body {
 }
 
 .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .site .link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
   color: var(--main-text-color);
 }
 
@@ -61,11 +60,6 @@ body {
 
 /*contact*/
 .auth .link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-
   color: var(--paragraph-color);
 }
 
@@ -96,6 +90,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   background-color: var(--button-hover-color);
   color: var(--text-title-button-color);
@@ -166,10 +161,10 @@ body {
   color: var(--text-title-button-color);
 }
 
-.contacts .link {
+.contacts .footer-link {
   font-style: normal;
+  text-decoration: none;
   line-height: 1.71;
-
   color: var(--footer-text-color);
 }
 
@@ -184,6 +179,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 
   background-color: var(--button-background-color);
   color: var(--main-text-color);
@@ -196,6 +192,10 @@ body {
 }
 
 /*страницы портфолио*/
+.invisible {
+  display: none;
+}
+
 .objects .title {
   font-weight: 700;
   font-size: 18px;
