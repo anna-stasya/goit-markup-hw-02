@@ -27,7 +27,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-
   color: var(--color-black);
 }
 
@@ -76,7 +75,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--text-title-button-color);
   background-color: var(--background-footer);
 }
@@ -90,20 +88,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-
-  background-color: var(--button-hover-color);
   color: var(--text-title-button-color);
-}
-
-/* ========================SECTION ========================*/
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-
-  color: var(--main-text-color);
+  background-color: var(--button-hover-color);
 }
 
 /* ========================FEATURE ========================*/
@@ -112,14 +98,20 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-
-  color: var(--main-text-color);
 }
 
 .feature-list .text {
   line-height: 1.71;
-
   color: var(--paragraph-color);
+}
+
+/* ========================What are we doing ========================*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* ========================TEAM ========================*/
@@ -130,30 +122,28 @@ body {
 .team .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
-
-  color: var(--main-text-color);
 }
 
 .team .position {
   line-height: 1.19;
   text-align: center;
-
   color: var(--paragraph-color);
 }
 
 /* ========================FOOTER ========================*/
-.background {
+.footer-background {
   background-color: var(--background-footer);
 }
 
 .address {
-  text-decoration: none;
+  color: var(--text-title-button-color);
+}
+
+.footer-address {
   font-style: normal;
   line-height: 1.71;
-
-  color: var(--text-title-button-color);
 }
 
 .logo-studio {
@@ -161,17 +151,17 @@ body {
 }
 
 .contacts .footer-link {
-  font-style: normal;
   text-decoration: none;
-  line-height: 1.71;
   color: var(--footer-text-color);
+}
+
+.contacts .footer-link:hover,
+.contacts .footer-link:focus {
+  color: var(--button-hover-color);
 }
 
 /* ========================PAGE PORTFILIO ========================*/
 /* ========================FILTER ========================*/
-.button .illuminated {
-  background-color: var(--button-background-color);
-}
 
 .filter .illuminated {
   font-family: inherit;
@@ -179,15 +169,14 @@ body {
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
-
-  background-color: var(--button-background-color);
   color: var(--main-text-color);
+  background-color: var(--button-background-color);
 }
 
 .filter .illuminated:hover,
 .filter .illuminated:focus {
-  background-color: var(--button-hover-color);
   color: var(--text-title-button-color);
+  background-color: var(--button-hover-color);
 }
 
 /* ========================OBJECTS ========================*/
