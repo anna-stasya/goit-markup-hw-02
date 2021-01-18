@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --main-text-color: #212121;
   --paragraph-color: #757575;
@@ -21,6 +27,14 @@ body {
 /* ======================== PAGE HOME ========================*/
 
 /* ======================== HEADER ========================*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid coral;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -36,6 +50,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -68,32 +84,49 @@ body {
 }
 
 /* ========================HERO ========================*/
+.hero-pic {
+  text-align: center;
+}
+
+.hero {
+  background-color: var(--background-footer); /*убрать потом*/
+}
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /*text-align: center;*/
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-title-button-color);
-  background-color: var(--background-footer);
+  background-color: var(--background-footer); /*убрать потом*/
 }
 
-/* ========================BUTTON ========================*/
+/* ========================HERO-BUTTON ========================*/
 
-.button {
+.hero-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  /*text-align: center;*/
+  border: none;
+  /*border: 1px solid transparent*/
   color: var(--text-title-button-color);
   background-color: var(--button-hover-color);
 }
 
 /* ========================FEATURE ========================*/
-
+.desc {
+}
 .feature-list .title {
   font-weight: 700;
   line-height: 1.14;
@@ -106,6 +139,9 @@ body {
 }
 
 /* ========================What are we doing ========================*/
+
+.picture {
+}
 
 .section-title {
   font-weight: 700;
@@ -132,43 +168,23 @@ body {
   color: var(--paragraph-color);
 }
 
-/* ========================FOOTER ========================*/
-.footer-background {
-  background-color: var(--background-footer);
-}
-
-.address {
-  color: var(--text-title-button-color);
-}
-
-.footer-address {
-  font-style: normal;
-  line-height: 1.71;
-}
-
-.logo-studio {
-  color: var(--text-title-button-color);
-}
-
-.contacts .footer-link {
-  text-decoration: none;
-  color: var(--footer-text-color);
-}
-
-.contacts .footer-link:hover,
-.contacts .footer-link:focus {
-  color: var(--button-hover-color);
-}
-
 /* ========================PAGE PORTFILIO ========================*/
 /* ========================FILTER ========================*/
+.btn-portfolio {
+}
 
 .filter .illuminated {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 103px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
   cursor: pointer;
+  border: none;
   color: var(--main-text-color);
   background-color: var(--button-background-color);
 }
@@ -193,4 +209,35 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--paragraph-color);
+}
+
+/* ========================FOOTER ========================*/
+
+.footer-background {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--background-footer);
+}
+
+.address {
+  color: var(--text-title-button-color);
+}
+
+.footer-address {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.logo-studio {
+  color: var(--text-title-button-color);
+}
+
+.contacts .footer-link {
+  text-decoration: none;
+  color: var(--footer-text-color);
+}
+
+.contacts .footer-link:hover,
+.contacts .footer-link:focus {
+  color: var(--button-hover-color);
 }
